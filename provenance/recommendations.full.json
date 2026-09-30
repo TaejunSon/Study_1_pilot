@@ -1,0 +1,1572 @@
+{
+ "built_at": null,
+ "contract": "v4",
+ "model": "gpt-5.4-mini",
+ "blocks": {
+  "NAV": {
+   "record": "v4__20260922_214330.json",
+   "k": 5,
+   "commands": [
+    "NEXT_STEP",
+    "PREVIOUS_STEP",
+    "REPLAY_INSTRUCTION"
+   ],
+   "scenes": [
+    {
+     "scene_id": "cylindrical_01_knife",
+     "grasp_gt": {
+      "noun": "knife",
+      "grasp": "cylindrical"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.8,
+      "OPS_SWIPE_DOWN": 0.8,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "cylindrical_02_dumbbell_hot3d",
+     "grasp_gt": {
+      "noun": "dumbbell",
+      "grasp": "cylindrical"
+     },
+     "modal_map": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE"
+     ],
+     "modal_map_freq": 0.6,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.6,
+      "OPS_DOUBLE_TAP": 0.6,
+      "OPS_SWIPE_UP": 0.0,
+      "OPS_SWIPE_DOWN": 0.0,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.6,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 1.0
+     },
+     "stable": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "cylindrical_03_vacuum_handle_adl",
+     "grasp_gt": {
+      "noun": "vacuum handle",
+      "grasp": "cylindrical"
+     },
+     "modal_map": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OC_TAP"
+     ],
+     "modal_map_freq": 0.2,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.6,
+      "OC_TILT_UP": 0.6,
+      "OC_TILT_DOWN": 0.6,
+      "OC_TILT_LEFT": 0.8,
+      "OC_TILT_RIGHT": 0.6,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.6
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OC_TILT_LEFT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_CIRCLE",
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_RIGHT",
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "spherical_01_toy_0064127",
+     "grasp_gt": {
+      "noun": "toy",
+      "grasp": "spherical"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 1.0,
+     "modal_pair_freq": 1.0,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "spherical_02_soccer_ball",
+     "grasp_gt": {
+      "noun": "soccer ball",
+      "grasp": "spherical"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 1.0,
+     "modal_pair_freq": 1.0,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.4,
+      "OC_TILT_DOWN": 0.4,
+      "OC_TILT_LEFT": 0.4,
+      "OC_TILT_RIGHT": 0.4,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.4
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "spherical_03_tennis_ball_ego4d",
+     "grasp_gt": {
+      "noun": "tennis ball",
+      "grasp": "spherical"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 1.0,
+     "modal_pair_freq": 1.0,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.4
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "hook_01_bag",
+     "grasp_gt": {
+      "noun": "shopping bag",
+      "grasp": "hook"
+     },
+     "modal_map": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 0.2,
+      "OPS_DOUBLE_TAP": 0.2,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.2,
+      "OPS_SWIPE_RIGHT": 0.2,
+      "OPS_CIRCLE": 0.2,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "hook_02_pitcher_adl",
+     "grasp_gt": {
+      "noun": "water filter pitcher",
+      "grasp": "hook"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 0.8,
+      "OPS_SWIPE_DOWN": 0.8,
+      "OPS_SWIPE_LEFT": 0.8,
+      "OPS_SWIPE_RIGHT": 0.8,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.0,
+      "OC_DOUBLE_TAP": 0.0,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "hook_03_bucket",
+     "grasp_gt": {
+      "noun": "bucket",
+      "grasp": "hook"
+     },
+     "modal_map": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 0.6,
+      "OPS_DOUBLE_TAP": 0.6,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.2,
+      "OPS_SWIPE_RIGHT": 0.2,
+      "OPS_CIRCLE": 0.6,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.4,
+      "OC_DOUBLE_TAP": 0.4,
+      "OC_CIRCLE": 0.4
+     },
+     "stable": [],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "lateral_01_lighter_epic",
+     "grasp_gt": {
+      "noun": "lighter",
+      "grasp": "lateral"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 1.0,
+     "modal_pair_freq": 1.0,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 0.8,
+      "OPS_SWIPE_RIGHT": 0.8,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.6,
+      "OC_TILT_DOWN": 0.6,
+      "OC_TILT_LEFT": 0.6,
+      "OC_TILT_RIGHT": 0.6,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "lateral_02_playing_cards_0059165",
+     "grasp_gt": {
+      "noun": "playing cards",
+      "grasp": "lateral"
+     },
+     "modal_map": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.4,
+      "OPS_DOUBLE_TAP": 0.4,
+      "OPS_SWIPE_UP": 0.6,
+      "OPS_SWIPE_DOWN": 0.6,
+      "OPS_SWIPE_LEFT": 0.4,
+      "OPS_SWIPE_RIGHT": 0.4,
+      "OPS_CIRCLE": 0.4,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.4
+     },
+     "stable": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "lateral_03_ruler",
+     "grasp_gt": {
+      "noun": "ruler",
+      "grasp": "lateral"
+     },
+     "modal_map": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 0.0,
+      "OPS_SWIPE_DOWN": 0.0,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.6,
+      "OC_TILT_DOWN": 0.6,
+      "OC_TILT_LEFT": 0.6,
+      "OC_TILT_RIGHT": 0.6,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.6
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "palmar_01_phone",
+     "grasp_gt": {
+      "noun": "phone",
+      "grasp": "palmar"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.4
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "palmar_02_baking_tray",
+     "grasp_gt": {
+      "noun": "baking tray",
+      "grasp": "palmar"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 1.0,
+     "modal_pair_freq": 1.0,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.0,
+      "OC_DOUBLE_TAP": 0.0,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+     "grasp_gt": {
+      "noun": "whiteboard eraser",
+      "grasp": "palmar"
+     },
+     "modal_map": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 0.0,
+      "OPS_DOUBLE_TAP": 0.0,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.2,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "tip_01_screw",
+     "grasp_gt": {
+      "noun": "screw",
+      "grasp": "tip"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.8,
+      "OPS_SWIPE_DOWN": 0.8,
+      "OPS_SWIPE_LEFT": 0.8,
+      "OPS_SWIPE_RIGHT": 0.8,
+      "OPS_CIRCLE": 0.6,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "tip_02_needle",
+     "grasp_gt": {
+      "noun": "needle",
+      "grasp": "tip"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 0.8,
+      "OPS_SWIPE_DOWN": 0.8,
+      "OPS_SWIPE_LEFT": 0.8,
+      "OPS_SWIPE_RIGHT": 0.8,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.8,
+      "OC_TILT_RIGHT": 0.8,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "tip_03_toothbrush_aea",
+     "grasp_gt": {
+      "noun": "toothbrush",
+      "grasp": "tip"
+     },
+     "modal_map": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.6,
+      "OPS_SWIPE_DOWN": 0.6,
+      "OPS_SWIPE_LEFT": 0.4,
+      "OPS_SWIPE_RIGHT": 0.4,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.8,
+      "OC_TILT_DOWN": 0.8,
+      "OC_TILT_LEFT": 0.8,
+      "OC_TILT_RIGHT": 0.8,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE",
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT"
+     ]
+    }
+   ]
+  },
+  "CTRL": {
+   "record": "v4__20260930_162244.json",
+   "k": 5,
+   "commands": [
+    "CONFIRM_DONE",
+    "UNDO_CANCEL",
+    "PAUSE_RESUME"
+   ],
+   "scenes": [
+    {
+     "scene_id": "cylindrical_01_knife",
+     "grasp_gt": {
+      "noun": "knife",
+      "grasp": "cylindrical"
+     },
+     "modal_map": [
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 0.4,
+      "OPS_SWIPE_DOWN": 0.4,
+      "OPS_SWIPE_LEFT": 0.2,
+      "OPS_SWIPE_RIGHT": 0.2,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.4,
+      "OC_TILT_DOWN": 0.4,
+      "OC_TILT_LEFT": 0.4,
+      "OC_TILT_RIGHT": 0.4,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "cylindrical_02_dumbbell_hot3d",
+     "grasp_gt": {
+      "noun": "dumbbell",
+      "grasp": "cylindrical"
+     },
+     "modal_map": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE"
+     ],
+     "modal_map_freq": 0.6,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.4
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "cylindrical_03_vacuum_handle_adl",
+     "grasp_gt": {
+      "noun": "vacuum handle",
+      "grasp": "cylindrical"
+     },
+     "modal_map": [
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.2,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 0.6,
+      "OPS_DOUBLE_TAP": 0.6,
+      "OPS_SWIPE_UP": 0.4,
+      "OPS_SWIPE_DOWN": 0.4,
+      "OPS_SWIPE_LEFT": 0.2,
+      "OPS_SWIPE_RIGHT": 0.2,
+      "OPS_CIRCLE": 0.2,
+      "OC_TILT_UP": 0.6,
+      "OC_TILT_DOWN": 0.6,
+      "OC_TILT_LEFT": 1.0,
+      "OC_TILT_RIGHT": 0.6,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OC_TILT_LEFT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "spherical_01_toy_0064127",
+     "grasp_gt": {
+      "noun": "toy",
+      "grasp": "spherical"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 1.0,
+     "modal_pair_freq": 1.0,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.4,
+      "OC_TILT_DOWN": 0.4,
+      "OC_TILT_LEFT": 0.4,
+      "OC_TILT_RIGHT": 0.4,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "spherical_02_soccer_ball",
+     "grasp_gt": {
+      "noun": "soccer ball",
+      "grasp": "spherical"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.8,
+      "OPS_SWIPE_DOWN": 0.8,
+      "OPS_SWIPE_LEFT": 0.8,
+      "OPS_SWIPE_RIGHT": 0.8,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 1.0
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "spherical_03_tennis_ball_ego4d",
+     "grasp_gt": {
+      "noun": "tennis ball",
+      "grasp": "spherical"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.6,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.6,
+      "OPS_DOUBLE_TAP": 0.6,
+      "OPS_SWIPE_UP": 0.6,
+      "OPS_SWIPE_DOWN": 0.6,
+      "OPS_SWIPE_LEFT": 0.6,
+      "OPS_SWIPE_RIGHT": 0.6,
+      "OPS_CIRCLE": 0.6,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.2
+     },
+     "stable": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "hook_01_bag",
+     "grasp_gt": {
+      "noun": "shopping bag",
+      "grasp": "hook"
+     },
+     "modal_map": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 0.2,
+      "OPS_DOUBLE_TAP": 0.2,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.2,
+      "OPS_SWIPE_RIGHT": 0.2,
+      "OPS_CIRCLE": 0.2,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.8
+     },
+     "stable": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "hook_02_pitcher_adl",
+     "grasp_gt": {
+      "noun": "water filter pitcher",
+      "grasp": "hook"
+     },
+     "modal_map": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 0.6,
+      "OPS_SWIPE_DOWN": 0.6,
+      "OPS_SWIPE_LEFT": 0.4,
+      "OPS_SWIPE_RIGHT": 0.4,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.0,
+      "OC_DOUBLE_TAP": 0.0,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE"
+     ],
+     "contested": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "hook_03_bucket",
+     "grasp_gt": {
+      "noun": "bucket",
+      "grasp": "hook"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.6,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.6,
+      "OPS_SWIPE_DOWN": 0.6,
+      "OPS_SWIPE_LEFT": 0.6,
+      "OPS_SWIPE_RIGHT": 0.6,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.2,
+      "OC_DOUBLE_TAP": 0.2,
+      "OC_CIRCLE": 0.2
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE"
+     ],
+     "contested": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "lateral_01_lighter_epic",
+     "grasp_gt": {
+      "noun": "lighter",
+      "grasp": "lateral"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 0.8,
+      "OPS_SWIPE_RIGHT": 0.8,
+      "OPS_CIRCLE": 0.8,
+      "OC_TILT_UP": 0.2,
+      "OC_TILT_DOWN": 0.2,
+      "OC_TILT_LEFT": 0.2,
+      "OC_TILT_RIGHT": 0.2,
+      "OC_TAP": 0.6,
+      "OC_DOUBLE_TAP": 0.6,
+      "OC_CIRCLE": 0.4
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE"
+     ],
+     "contested": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "lateral_02_playing_cards_0059165",
+     "grasp_gt": {
+      "noun": "playing cards",
+      "grasp": "lateral"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.4,
+      "OC_TILT_DOWN": 0.4,
+      "OC_TILT_LEFT": 0.4,
+      "OC_TILT_RIGHT": 0.4,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.2
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "lateral_03_ruler",
+     "grasp_gt": {
+      "noun": "ruler",
+      "grasp": "lateral"
+     },
+     "modal_map": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE"
+     ],
+     "modal_map_freq": 0.2,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 0.8,
+      "OPS_DOUBLE_TAP": 0.8,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.2,
+      "OPS_SWIPE_RIGHT": 0.2,
+      "OPS_CIRCLE": 0.2,
+      "OC_TILT_UP": 0.8,
+      "OC_TILT_DOWN": 0.8,
+      "OC_TILT_LEFT": 0.8,
+      "OC_TILT_RIGHT": 0.8,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.2
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "palmar_01_phone",
+     "grasp_gt": {
+      "noun": "phone",
+      "grasp": "palmar"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.6,
+     "modal_pair_freq": 0.6,
+     "p_survive": {
+      "OPS_TAP": 0.6,
+      "OPS_DOUBLE_TAP": 0.6,
+      "OPS_SWIPE_UP": 1.0,
+      "OPS_SWIPE_DOWN": 1.0,
+      "OPS_SWIPE_LEFT": 1.0,
+      "OPS_SWIPE_RIGHT": 1.0,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.8,
+      "OC_TILT_DOWN": 0.8,
+      "OC_TILT_LEFT": 0.8,
+      "OC_TILT_RIGHT": 0.8,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.2
+     },
+     "stable": [
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE",
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP"
+     ]
+    },
+    {
+     "scene_id": "palmar_02_baking_tray",
+     "grasp_gt": {
+      "noun": "baking tray",
+      "grasp": "palmar"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 1.0,
+      "OPS_DOUBLE_TAP": 1.0,
+      "OPS_SWIPE_UP": 0.8,
+      "OPS_SWIPE_DOWN": 0.8,
+      "OPS_SWIPE_LEFT": 0.8,
+      "OPS_SWIPE_RIGHT": 0.8,
+      "OPS_CIRCLE": 1.0,
+      "OC_TILT_UP": 0.0,
+      "OC_TILT_DOWN": 0.0,
+      "OC_TILT_LEFT": 0.0,
+      "OC_TILT_RIGHT": 0.0,
+      "OC_TAP": 0.0,
+      "OC_DOUBLE_TAP": 0.0,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE"
+     ],
+     "contested": []
+    },
+    {
+     "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+     "grasp_gt": {
+      "noun": "whiteboard eraser",
+      "grasp": "palmar"
+     },
+     "modal_map": [
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_TAP"
+     ],
+     "modal_map_freq": 0.8,
+     "modal_pair_freq": 0.8,
+     "p_survive": {
+      "OPS_TAP": 0.0,
+      "OPS_DOUBLE_TAP": 0.0,
+      "OPS_SWIPE_UP": 0.0,
+      "OPS_SWIPE_DOWN": 0.0,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.0,
+      "OC_TILT_UP": 0.8,
+      "OC_TILT_DOWN": 0.8,
+      "OC_TILT_LEFT": 0.8,
+      "OC_TILT_RIGHT": 0.8,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 0.6
+     },
+     "stable": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OC_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "tip_01_screw",
+     "grasp_gt": {
+      "noun": "screw",
+      "grasp": "tip"
+     },
+     "modal_map": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 0.6,
+      "OPS_DOUBLE_TAP": 0.6,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.0,
+      "OPS_SWIPE_RIGHT": 0.0,
+      "OPS_CIRCLE": 0.6,
+      "OC_TILT_UP": 0.6,
+      "OC_TILT_DOWN": 0.6,
+      "OC_TILT_LEFT": 0.6,
+      "OC_TILT_RIGHT": 0.6,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 1.0
+     },
+     "stable": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE",
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT"
+     ]
+    },
+    {
+     "scene_id": "tip_02_needle",
+     "grasp_gt": {
+      "noun": "needle",
+      "grasp": "tip"
+     },
+     "modal_map": [
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_TAP"
+     ],
+     "modal_map_freq": 0.4,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 0.6,
+      "OPS_DOUBLE_TAP": 0.6,
+      "OPS_SWIPE_UP": 0.4,
+      "OPS_SWIPE_DOWN": 0.4,
+      "OPS_SWIPE_LEFT": 0.4,
+      "OPS_SWIPE_RIGHT": 0.4,
+      "OPS_CIRCLE": 0.4,
+      "OC_TILT_UP": 1.0,
+      "OC_TILT_DOWN": 1.0,
+      "OC_TILT_LEFT": 1.0,
+      "OC_TILT_RIGHT": 1.0,
+      "OC_TAP": 0.8,
+      "OC_DOUBLE_TAP": 0.8,
+      "OC_CIRCLE": 0.0
+     },
+     "stable": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TILT_RIGHT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_SWIPE_UP",
+      "OPS_SWIPE_DOWN",
+      "OPS_SWIPE_LEFT",
+      "OPS_SWIPE_RIGHT",
+      "OPS_CIRCLE"
+     ]
+    },
+    {
+     "scene_id": "tip_03_toothbrush_aea",
+     "grasp_gt": {
+      "noun": "toothbrush",
+      "grasp": "tip"
+     },
+     "modal_map": [
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "modal_map_freq": 0.2,
+     "modal_pair_freq": 0.4,
+     "p_survive": {
+      "OPS_TAP": 0.4,
+      "OPS_DOUBLE_TAP": 0.4,
+      "OPS_SWIPE_UP": 0.2,
+      "OPS_SWIPE_DOWN": 0.2,
+      "OPS_SWIPE_LEFT": 0.2,
+      "OPS_SWIPE_RIGHT": 0.2,
+      "OPS_CIRCLE": 0.6,
+      "OC_TILT_UP": 0.8,
+      "OC_TILT_DOWN": 0.8,
+      "OC_TILT_LEFT": 0.8,
+      "OC_TILT_RIGHT": 0.6,
+      "OC_TAP": 1.0,
+      "OC_DOUBLE_TAP": 1.0,
+      "OC_CIRCLE": 1.0
+     },
+     "stable": [
+      "OC_TILT_UP",
+      "OC_TILT_DOWN",
+      "OC_TILT_LEFT",
+      "OC_TAP",
+      "OC_DOUBLE_TAP",
+      "OC_CIRCLE"
+     ],
+     "contested": [
+      "OPS_TAP",
+      "OPS_DOUBLE_TAP",
+      "OPS_CIRCLE",
+      "OC_TILT_RIGHT"
+     ]
+    }
+   ]
+  }
+ }
+}

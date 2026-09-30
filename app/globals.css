@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background: #f4f6f8;
+  color: #1f2430;
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* No decorative motion in the lab; keep only functional focus states. */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+*:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-md border px-4 py-2 text-sm font-medium disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply btn border-accent bg-accent text-white hover:bg-blue-800; }
+  .btn-secondary { @apply btn border-line bg-white text-ink hover:bg-slate-50; }
+  .btn-danger { @apply btn border-warn bg-white text-warn hover:bg-red-50; }
+  .card { @apply rounded-lg border border-line bg-panel; }
+  .label { @apply block text-sm font-medium text-ink; }
+  .help { @apply text-sm text-muted; }
+  .input { @apply w-full rounded-md border border-line bg-white px-3 py-2 text-sm text-ink placeholder:text-slate-400 focus:border-accent; }
+  .textarea { @apply input min-h-[96px] resize-y leading-relaxed; }
+  .chip { @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium; }
+  .chip-ops { @apply chip border-ops/30 bg-ops-soft text-ops; }
+  .chip-oc { @apply chip border-oc/30 bg-oc-soft text-oc; }
+  .table { @apply w-full border-collapse text-sm; }
+  .table th { @apply border-b border-line px-2 py-1.5 text-left text-xs font-medium uppercase tracking-wide text-muted; }
+  .table td { @apply border-b border-slate-100 px-2 py-1.5 align-top; }
+}

@@ -1,0 +1,1082 @@
+[
+ {
+  "scene_id": "cylindrical_01_knife",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_01_knife",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_01_knife",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_02_dumbbell_hot3d",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_02_dumbbell_hot3d",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_02_dumbbell_hot3d",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_03_vacuum_handle_adl",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_03_vacuum_handle_adl",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_03_vacuum_handle_adl",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_01_toy_0064127",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_01_toy_0064127",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_01_toy_0064127",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_02_soccer_ball",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_02_soccer_ball",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_02_soccer_ball",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_03_tennis_ball_ego4d",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_03_tennis_ball_ego4d",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_03_tennis_ball_ego4d",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_01_bag",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_01_bag",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_01_bag",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OC_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_02_pitcher_adl",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_02_pitcher_adl",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_02_pitcher_adl",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_03_bucket",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_03_bucket",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_03_bucket",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OC_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_01_lighter_epic",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_01_lighter_epic",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_01_lighter_epic",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_02_playing_cards_0059165",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_02_playing_cards_0059165",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_02_playing_cards_0059165",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OC_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_03_ruler",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_TILT_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_03_ruler",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_TILT_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_03_ruler",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_01_phone",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_01_phone",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_01_phone",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_02_baking_tray",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_02_baking_tray",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_02_baking_tray",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OC_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OC_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_01_screw",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_01_screw",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_01_screw",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_02_needle",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_02_needle",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_02_needle",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_03_toothbrush_aea",
+  "command_id": "NEXT_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_UP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_03_toothbrush_aea",
+  "command_id": "PREVIOUS_STEP",
+  "block_id": "NAV",
+  "gesture": "OPS_SWIPE_DOWN",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_03_toothbrush_aea",
+  "command_id": "REPLAY_INSTRUCTION",
+  "block_id": "NAV",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_01_knife",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OC_TILT_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_01_knife",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OC_TILT_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_01_knife",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_02_dumbbell_hot3d",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_02_dumbbell_hot3d",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_02_dumbbell_hot3d",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_03_vacuum_handle_adl",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OC_TILT_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_03_vacuum_handle_adl",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OC_TILT_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "cylindrical_03_vacuum_handle_adl",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_01_toy_0064127",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_01_toy_0064127",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_01_toy_0064127",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 1.0,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_02_soccer_ball",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_02_soccer_ball",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_02_soccer_ball",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_03_tennis_ball_ego4d",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_03_tennis_ball_ego4d",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "spherical_03_tennis_ball_ego4d",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_01_bag",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_01_bag",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OC_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_01_bag",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OC_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_02_pitcher_adl",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_02_pitcher_adl",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_02_pitcher_adl",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_03_bucket",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_03_bucket",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "hook_03_bucket",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_01_lighter_epic",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_01_lighter_epic",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_01_lighter_epic",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_02_playing_cards_0059165",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_02_playing_cards_0059165",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_02_playing_cards_0059165",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_03_ruler",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_03_ruler",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "lateral_03_ruler",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_01_phone",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_01_phone",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_01_phone",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.6,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_02_baking_tray",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_02_baking_tray",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_02_baking_tray",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OC_TILT_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OC_TILT_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "palmar_03_whiteboard_eraser_hot3d",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.8,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_01_screw",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_01_screw",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OC_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_01_screw",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OC_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_02_needle",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_LEFT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_02_needle",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OPS_SWIPE_RIGHT",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_02_needle",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OPS_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.4,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_03_toothbrush_aea",
+  "command_id": "CONFIRM_DONE",
+  "block_id": "CTRL",
+  "gesture": "OC_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_03_toothbrush_aea",
+  "command_id": "UNDO_CANCEL",
+  "block_id": "CTRL",
+  "gesture": "OC_DOUBLE_TAP",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ },
+ {
+  "scene_id": "tip_03_toothbrush_aea",
+  "command_id": "PAUSE_RESUME",
+  "block_id": "CTRL",
+  "gesture": "OC_CIRCLE",
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v4-d85855001606",
+  "modal_map_freq": 0.2,
+  "k": 5
+ }
+]

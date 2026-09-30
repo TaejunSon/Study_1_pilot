@@ -1,0 +1,23 @@
+# dependencies / build output
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Dataset media is NEVER committed: the clips come from Ego4D, EPIC-KITCHENS and HOT3D, whose licenses do not
+# allow redistribution. Host them yourself and point NEXT_PUBLIC_VIDEO_BASE_URL at that host.
+public/videos/*
+!public/videos/README.md
+*.mp4
+*.mkv
+*.webm
+*.tar
+
+# local env
+.env
+.env.local
+
+# editors / OS
+.DS_Store
+.idea/
+.vscode/

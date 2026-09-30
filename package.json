@@ -1,0 +1,33 @@
+{
+  "name": "expert-study-pages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static (GitHub Pages) build of the expert gesture elicitation study. No server, no API keys: the recommendations are precomputed and baked in, and responses are exported as CSV from the browser.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "serve": "npx --yes serve out -l 4321",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint",
+    "selftest": "tsx scripts/selftest.mts",
+    "seed:build": "python scripts/build_seed.py"
+  },
+  "dependencies": {
+    "next": "^15.5.25",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.25",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

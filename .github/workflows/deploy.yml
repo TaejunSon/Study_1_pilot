@@ -1,0 +1,71 @@
+name: Deploy to GitHub Pages
+
+# Builds the static study and publishes it. The site has no server side, so this is the whole deployment.
+#
+# Repository settings needed once:
+#   Settings > Pages > Build and deployment > Source: GitHub Actions
+#   Settings > Secrets and variables > Actions > Variables:
+#     NEXT_PUBLIC_VIDEO_BASE_URL   where the 18 clips are hosted (they are NOT in this repository)
+#     NEXT_PUBLIC_RETURN_ADDRESS   optional, shown on the completion page as where to send the exported CSV
+#     NEXT_PUBLIC_STUDY_SALT       optional, changes the per-participant trial order
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check types
+        run: npm run typecheck
+
+      - name: Run the study self test
+        run: npm run selftest
+
+      - name: Build the static site
+        env:
+          # a project site lives under /<repo>/, so the app must be built with that prefix
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_VIDEO_BASE_URL: ${{ vars.NEXT_PUBLIC_VIDEO_BASE_URL }}
+          NEXT_PUBLIC_RETURN_ADDRESS: ${{ vars.NEXT_PUBLIC_RETURN_ADDRESS }}
+          NEXT_PUBLIC_STUDY_SALT: ${{ vars.NEXT_PUBLIC_STUDY_SALT }}
+        run: npm run build
+
+      - name: Warn if no video host is configured
+        if: ${{ vars.NEXT_PUBLIC_VIDEO_BASE_URL == '' }}
+        run: echo "::warning::NEXT_PUBLIC_VIDEO_BASE_URL is not set - the deployed study will have no clips to show."
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
