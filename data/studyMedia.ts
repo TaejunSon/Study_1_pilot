@@ -15,8 +15,14 @@
  */
 export const VIDEO_BASE_URL = (process.env.NEXT_PUBLIC_VIDEO_BASE_URL ?? "").replace(/\/+$/, "");
 
+/**
+ * A project site is served under /<repo>/, and a plain `src` string is not rewritten for us the way next/link and
+ * next/image are, so the in-repo fallback has to carry the base path itself.
+ */
+const BASE_PATH = (process.env.NEXT_PUBLIC_BASE_PATH ?? "").replace(/\/+$/, "");
+
 export function videoUrl(sceneId: string): string {
-  return VIDEO_BASE_URL ? `${VIDEO_BASE_URL}/${sceneId}.mp4` : `/videos/${sceneId}.mp4`;
+  return VIDEO_BASE_URL ? `${VIDEO_BASE_URL}/${sceneId}.mp4` : `${BASE_PATH}/videos/${sceneId}.mp4`;
 }
 
 /** True when the build has no external host configured, so the operator can be warned instead of seeing black boxes. */
