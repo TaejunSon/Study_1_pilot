@@ -25,9 +25,10 @@ CATALOGS = [
 ]
 CATALOG = CATALOGS[0]
 
+# the study's card order: each family runs tap, double tap, the four directions, circle
 GESTURE_IDS = [
     "OPS_TAP", "OPS_DOUBLE_TAP", "OPS_SWIPE_UP", "OPS_SWIPE_DOWN", "OPS_SWIPE_LEFT", "OPS_SWIPE_RIGHT", "OPS_CIRCLE",
-    "OC_TILT_UP", "OC_TILT_DOWN", "OC_TILT_LEFT", "OC_TILT_RIGHT", "OC_TAP", "OC_DOUBLE_TAP", "OC_CIRCLE",
+    "OC_TAP", "OC_DOUBLE_TAP", "OC_TILT_UP", "OC_TILT_DOWN", "OC_TILT_LEFT", "OC_TILT_RIGHT", "OC_CIRCLE",
 ]
 
 NL = chr(10)
@@ -87,7 +88,8 @@ def main():
     ]
     width = max(len(g) for g in GESTURE_IDS)
     for gid, sym, lab in rows:
-        out.append('  %-*s { symbol: "%s", hudLabel: "%s" },' % (width + 1, gid + ":", sym, lab))
+        # json.dumps, not a bare "%s": a symbol may carry a line break (the object double tap is two stacked checks)
+        out.append("  %-*s { symbol: %s, hudLabel: %s }," % (width + 1, gid + ":", json.dumps(sym), json.dumps(lab)))
     out += [
         "};",
         "",
@@ -99,8 +101,8 @@ def main():
     open(dst, "w", encoding="utf-8", newline=NL).write(NL.join(out))
 
     print("catalog_version %s -> data/hudSymbols.ts (%d gestures)" % (cat.get("catalog_version"), len(rows)))
-    for gid, sym, lab in rows:
-        print("  %-16s %-3s %s" % (gid, sym, lab))
+    for i, (gid, sym, lab) in enumerate(rows, 1):
+        print("  %2d  %-16s %-5s %s" % (i, gid, sym.replace(NL, "/"), lab))   # "/" stands in for a stacked mark
     if clashes:
         print("")
         print("WARNING: the HUD uses one symbol for several gestures:")

@@ -18,7 +18,8 @@ export function GestureIcon({ id, className = "h-12 w-12" }: { id: GestureId; cl
   const color = id.startsWith("OPS_") ? "#0f766e" : "#b45309";
   return (
     <span className={`inline-flex items-center justify-center ${className}`} aria-hidden>
-      <span style={{ color, fontFamily: HUD_SYMBOL_FONT, fontSize: "1.9rem", lineHeight: 1, whiteSpace: "nowrap", letterSpacing: "-0.03em" }}>
+      {/* the object double tap is two check marks on two lines, so the break in the catalog's symbol must survive */}
+      <span style={{ color, fontFamily: HUD_SYMBOL_FONT, fontSize: "1.9rem", lineHeight: 0.82, whiteSpace: "pre-line", textAlign: "center", letterSpacing: "-0.03em" }}>
         {mark.symbol}
       </span>
     </span>
